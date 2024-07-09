@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header1{
+    background-image: url(../imagens/bg-3.jpg);
+    background-size: cover;
+    height: 500px;
+    background-position: right center;
+    padding-top: 1px;
+}
+
+.haeder1-content{
+    margin: 50px auto 0;
+    text-align: center;
+    width: 80%;
+    color: aliceblue;
+}
+
+.haeder1-content h1{
+    font-size: 80px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+    margin-bottom:0 ;
+}
+
+.haeder1-content p{
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    padding: 10px;
+    display: inline-block;
+    border-bottom: 2px solid;
+}
+
+
+.header1 nav ul{
+    margin: 20px 50px 0 0;
+    text-align: right;
+}
+
+.header1 nav li{
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid white;
+}
+
+.header1 nav a{
+    background-color: rgba(0, 0, 0, .3);
+    padding: 16px;
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.header1 nav a:hover{
+    background-color: rgba(0, 0, 0, 0.5) ;
+}
+
+main{
+    margin: auto;
+    width: 90%;
+}
+
+section{
+    padding-top: 32px;
+}
+
+article{
+    background-color: white;
+    padding: 16px;
+    margin-bottom: 32px;
+}
+
+article h2{
+    border-bottom: 2px solid #ccc;
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 0;
+}
+
+.btn{
+    background-color: #cdc7c3;
+    display: block;
+    padding: 12px;
+    border-radius: 5px;
+    margin-left: auto;
+    width: fit-content;
+}
+
+.rodapé{
+    color: white;
+    background-color: gray;
+    text-align: center;
+    padding: 30px;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
+}
